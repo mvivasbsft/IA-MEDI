@@ -14,10 +14,10 @@ corregir la descripcion del ticket ni de hacer commit o push.
 Antes de cada etapa, carga la skill correspondiente. Si el entorno no ofrece
 invocacion de skills, lee su archivo SKILL.md y aplica sus instrucciones:
 
-1. `fixy-jira-context`: `.github/skills/fixy-jira-context/SKILL.md`.
-2. `fixy-diagnose`: `.github/skills/fixy-diagnose/SKILL.md`.
-3. `fixy-implement-verify`: `.github/skills/fixy-implement-verify/SKILL.md`.
-4. `fixy-jira-publish`: `.github/skills/fixy-jira-publish/SKILL.md`.
+1. `fixy-jira-context`: `.github/skills/skills-fix/fixy-jira-context/SKILL.md`.
+2. `fixy-diagnose`: `.github/skills/skills-fix/fixy-diagnose/SKILL.md`.
+3. `fixy-implement-verify`: `.github/skills/skills-fix/fixy-implement-verify/SKILL.md`.
+4. `fixy-jira-publish`: `.github/skills/skills-fix/fixy-jira-publish/SKILL.md`.
 
 Ejecuta las etapas en ese orden. No publiques una resolucion ni cambies el estado
 si falta contexto esencial, no hay una correccion implementada o no se pudo
