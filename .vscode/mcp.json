@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "atlassian-basic-auth",
+      "description": "Authorization de Atlassian: Basic <base64 de email:API token>",
+      "password": true
+    }
+  ],
+  "servers": {
+    "atlassian": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v2/mcp",
+      "headers": {
+        "Authorization": "${input:atlassian-basic-auth}"
+      }
+    }
+  }
+}
